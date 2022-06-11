@@ -12,6 +12,8 @@ ningumMensajeEncontrado.style.visibility = "visible";
 var textoDeseaDesencriptar = document.querySelector(".TextoDeseaDesencriptar");
 textoDeseaDesencriptar.style.visibility = "visible";
 
+textarea.value = "";
+
 //Funciones
 
 function btnencriptar(){
