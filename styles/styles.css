@@ -1,0 +1,326 @@
+body {
+    /* Posición */
+    width: 840px;
+    height: 100%;
+
+    /* Tipografía */
+    font-family: sans-serif;
+
+    /* Visual */
+    background: #E5E5E5;
+    display: flex;
+}
+
+.Logo {
+    /* Posición */
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.input-text {
+    /* Posición */
+    position: absolute;
+    top: 150px;
+    resize: none;
+
+    /* Modelo de caja*/
+    outline: none;
+    border: 0px;
+    width: 700px;
+    height: 300px;
+    left: 150px;
+
+    /* Tipografía */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    /* Visual */
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+
+
+.Info {
+    /* Posición */
+    position:absolute;
+    left: 150px;
+    top: 463px;
+    z-index: 1;
+
+    /* Tipografía */
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#Rectangulo1 {
+    /* Posición */
+    position: absolute;
+    right: 40px;
+    top: 30px;
+
+    /* Modelo de caja */
+    width: 400px;
+    height: 590px;
+    left: 900px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border:none;
+    outline: none;
+
+    /* Visual */
+    background: #FFFFFF;
+
+}
+
+.input-text-area {
+    /* Posición */
+    position: absolute;
+    top: 90px;
+    left: 930px;
+
+    /* Modelo de caja */
+    border: 0px;
+    outline: none;
+    width: 336px;
+    height: 400px;
+    resize: none;
+
+    /* Tipografía */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    /* Visual */
+    line-height: 150%;
+    color: #495057;
+}
+
+
+
+#encriptar {
+    /* Posición */
+    position: absolute;
+    left: 130px;
+    top: 550px;
+
+    /* Modelo de caja*/
+    width: 328px;
+    height: 67px;
+
+    /* Tipografía */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Visual */
+    background: #0A3871;
+    border-radius: 22px;
+    color: #FFFFFF;
+}
+
+#encriptar:hover {
+    /* Posición */
+    position: absolute;
+    left: 130px;
+    top: 550px;
+
+    /* Visibilidad */
+    transition: 1s background;
+    cursor: pointer;
+
+    /* Modelo de caja */
+    width: 328px;
+    height: 67px;
+
+    /* Tipografía */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+
+    /* Visual */
+    background: #495057;
+    border-radius: 22px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+#desencriptar {
+    /* Posición */
+    position: absolute;
+    left: 510px;
+    top: 550px;
+
+    /* Modelo de caja */
+    width: 328px;
+    height: 67px;
+
+    /* Tipografía */
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Visual */
+    background: #E5E5E5;
+    border-radius: 22px;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+#desencriptar:hover  {
+    /* Posición */
+    position: absolute;
+    left: 510px;
+    top: 550px;
+
+    /* Visibilidad */
+    transition: 1s background;
+    cursor: pointer;
+
+    /* Modelo de caja */
+    width: 328px;
+    height: 67px;
+
+    /* Tipo grafía*/
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+
+    /* Visual */
+    background: #FFFFFF;
+    border-radius: 22px;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+
+.NingunMensajeEncontrado {
+    /* Posición*/
+    left: 920px;
+    top: 400px;
+    position: absolute;
+
+    /* Modelo de caja */
+    border: 0px;
+    width: 350px;
+    height: 58px;
+
+    /* Tipografía */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: center;
+
+    /* Visual */
+    color: #343A40;
+}
+.TextoDeseaDesencriptar {
+    /* Posición */
+    position: absolute;
+    left: 930px;
+    top: 480px;
+
+    /* Visibilidad */
+    display: initial;
+    flex: none;
+    flex-grow: 0;
+
+    /* Modelo de caja */
+    width: 336px;
+    height: 48px;
+    margin: 16px 0px;
+    border: 0px;
+
+    /* Tipografía */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+    /* Visual */
+    color: #495057;
+
+    /* Misc */
+    content: "";
+    order: 1;
+    align-self: stretch;
+}
+
+.BotonCopiar {
+    /* Posición */
+    position: absolute;
+    left: 935px;
+    top: 550px;
+
+    /* Modelo de caja */
+    width: 328px;
+    height: 67px;
+
+    /* Tipografía*/
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Visual */
+    background: #FFFFFF;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+.Muñeco {
+    /* Posición */
+    position: absolute;
+    z-index: 1;
+    left: 930px;
+    top: 72px;
+
+    /* Modelo de cajas*/
+    width: 336px;
+    height: 304px;
+}
+
+footer {
+    /* Posición */
+    position: absolute;
+    top: 100%;
+
+    /* Modelo de caja */
+    width: 100%;
+
+    /* Tipo grafía */
+    text-align: center;
+
+    /* Visual */
+    color: #0A3871;
+}
+
+footer p {
+    /* Modelo de caja */
+    padding: 0px 0px;
+    margin: 0px ;
+}

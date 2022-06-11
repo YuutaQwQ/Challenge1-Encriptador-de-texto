@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo_alura.png">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Reto:Encriptador</title>
+    </head>
+        <body>
+            <header >
+            <!--Logo Alura-->
+
+                <img class="Logo"  src="img/logo_alura.png" >
+
+            </header>
+
+            <main>
+            <!--Muñeco y Rectangulo que rodea al texterea-->
+
+            <div id="Rectangulo1"></div>
+
+                <img class="Muñeco" src="img/Muñeco.png">
+
+            <section class="seccion1">
+            <!--Campo de texto para ingresar lo que queremos encriptar o desencriptar-->
+
+                <textarea type ="text" class="input-text" id="input-text" placeholder="Ingrese texto aquí" cols="40" rows="6"></textarea>
+
+
+            <div class=>
+            <!--Texto de advertencia-->
+
+            <h6 class="Info">🛑 Por favor introducir solo texto en minúsculas y sin acentos</h6>
+
+            </div>
+
+            <div >
+            <!--Botones-->
+
+                <button id="encriptar" type="button" onclick= "btnencriptar()" >Encriptar</button>
+                <button id="desencriptar" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+                <button class="BotonCopiar"  type="button"  onclick="btnCopiar()">Copiar</button>
+
+            </div>
+
+        </section>
+
+        <section>
+            <!--Campo de texto de resultado-->
+
+            <textarea  type= "text" class="input-text-area" id="input-text-area" cols="18" rows="8" readonly></textarea>
+
+        </section>
+
+        <div>
+            <!--Texto para los campos de texto-->
+
+            <label class="NingunMensajeEncontrado">Ningún mensaje fue encontrado</label>
+            <label class="TextoDeseaDesencriptar">Ingresa el texto que desees encriptar o desencriptar.</label>
+
+        </div>
+
+    </main>
+
+    <footer>
+            <!--Sobre el desarrollador-->
+
+        <p>© Copyright Alan Alexander - 2022</p>
+
+    </footer>
+
+            <!--Script de encriptado y desencriptado-->
+
+    <script src="scripts/scripts.js"></script>
+
+        </body>
+</html>
