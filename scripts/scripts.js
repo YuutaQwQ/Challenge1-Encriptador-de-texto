@@ -33,7 +33,7 @@ function encriptar(stringParaEncriptar){
     stringParaEncriptar = stringParaEncriptar.toLowerCase();
 
     if(stringParaEncriptar.length==0){
-        alert("No hay nada que incriptar");
+        alert("No hay nada que encriptar");
         return stringParaEncriptar=""
     }
 
