@@ -1,6 +1,6 @@
 const inputTexto = document.querySelector(".input-text");
 const mensaje = document.querySelector(".input-text-area");
-var imagen = document.querySelector(".detec");
+var imagen = document.querySelector(".Muñeco");
 var botonCopiar = document.querySelector(".BotonCopiar");
 botonCopiar.style.visibility = "hidden";
 var ningumMensajeEncontrado = document.querySelector(".NingunMensajeEncontrado");
